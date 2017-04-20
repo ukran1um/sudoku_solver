@@ -3,7 +3,7 @@ if __name__ == '__main__':
     
     print("""\n\nWELCOME TO THE SUDOKU SOLVER!\n\n\nInput the sudoku board as a string. It should be 81 characters long and have periods in the place of the empty cells:""")
     diag_sudoku_grid = input()
-    
+
     print("\n\nIs this a diagonal sudoku? Enter y/n")
     diagonal = input()
     diagonal = diagonal.lower()
@@ -52,7 +52,7 @@ if diagonal:
     diagonal_units = [[a+b for a,b in zip(rows,cols)]] + [[a+b for a,b in zip(rows,"987654321")]]
 
 # Element example:
-# square_units[0] = ['A1', 'B2', 'C3', 'D4', 'E5', 'F6', 'G7', 'H8', 'I9']
+# diagonal_units[0] = ['A1', 'B2', 'C3', 'D4', 'E5', 'F6', 'G7', 'H8', 'I9']
 # This is the left top to right bottom diagonal.
 
 
