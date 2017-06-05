@@ -1,4 +1,4 @@
-This is an automated sudoku solver developed when I was taking the Udacity AI course. It uses some simple constraint propagation techniques before resorting to a depth search.
+This is an automated sudoku solver developed by me as part of the Udacity AI course. It uses some simple constraint propagation techniques before resorting to a depth search.
 The input is a string of the sudoku board with the cells listed from top right going across and downward to bottom left with periods to signify empty cells. 
 If you want to also line up digits 1-9 on the diagonal you can type yes/y in the second prompt. However, a regular sudoku board may not have a solution with the diagonal constraint and would throw an error. In general, I did not dress up any error handling so if the input is wrong ugly python errors will pop up. 
 
